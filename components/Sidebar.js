@@ -8,10 +8,9 @@ import React from "react";
 import Image from "next/image";
 import Sidebaritems from "./Sidebaritems";
 import { BiUserCircle, BiGroup } from "react-icons/bi";
-import {FiShoppingBag} from 'react-icons/fi'
-import {MdOutlineOndemandVideo, MdExpandMore} from 'react-icons/md'
-import {ImStopwatch} from 'react-icons/im'
-
+import { FiShoppingBag } from "react-icons/fi";
+import { MdOutlineOndemandVideo, MdExpandMore } from "react-icons/md";
+import { ImStopwatch } from "react-icons/im";
 
 const Sidebar = () => {
   return (
@@ -26,13 +25,12 @@ const Sidebar = () => {
         <p className="hidden sm:inline-flex font-medium">Lee wonho</p>
       </div>
 
-    <Sidebaritems Icon={BiUserCircle} value="Friends" />
-    <Sidebaritems Icon={BiGroup} value="Groups" />
-    <Sidebaritems Icon={FiShoppingBag} value="Market" />
-    <Sidebaritems Icon={MdOutlineOndemandVideo} value="Watch" />
-    <Sidebaritems Icon={ImStopwatch} value="Memories" />
-    <Sidebaritems Icon={MdExpandMore} value="See More" />
-
+      <Sidebaritems Icon={BiUserCircle} value="Friends" />
+      <Sidebaritems Icon={BiGroup} value="Groups" />
+      <Sidebaritems Icon={FiShoppingBag} value="Market" />
+      <Sidebaritems Icon={MdOutlineOndemandVideo} value="Watch" />
+      <Sidebaritems Icon={ImStopwatch} value="Memories" />
+      <Sidebaritems Icon={MdExpandMore} value="See More" />
     </div>
   );
 };
