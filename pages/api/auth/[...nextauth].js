@@ -1,3 +1,9 @@
+/*
+lee wonho
+facebook clone project [...nextauth].js
+2022 08 24
+*/
+
 import NextAuth from "next-auth";
 import FacebookProvider from "next-auth/providers/facebook";
 

@@ -1,3 +1,9 @@
+/*
+lee wonho
+facebook clone project index.js
+2022 08 24
+*/
+
 import { getSession } from "next-auth/react";
 import Head from "next/head";
 import Header from "../components/Header";

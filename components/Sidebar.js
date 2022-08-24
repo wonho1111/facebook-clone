@@ -1,7 +1,7 @@
 /*
 lee wonho
 facebook clone project Sidebar component
-2022 08 13
+2022 08 24
 */
 
 import React from "react";

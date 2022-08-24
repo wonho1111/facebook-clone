@@ -1,3 +1,9 @@
+/*
+lee wonho
+facebook clone project app.js
+2022 08 24
+*/
+
 import "../styles/globals.css";
 import { SessionProvider } from "next-auth/react";
 

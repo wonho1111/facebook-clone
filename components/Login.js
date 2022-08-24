@@ -1,7 +1,7 @@
 /*
 lee wonho
 facebook clone project Login component
-2022 08 15
+2022 08 24
 */
 
 import { signIn } from "next-auth/react";
